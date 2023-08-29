@@ -1,0 +1,8 @@
+[workspace]
+members = ["neat-*", "neat/*"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
